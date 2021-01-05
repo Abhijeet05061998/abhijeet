@@ -1,0 +1,186 @@
+:root {
+ --primary-color: black;
+ --secondary-color: #ececec;
+ --link-color: #b17acc;
+}
+
+
+
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background:#ececec !important;
+}
+
+/* info-section */
+
+.info-section {
+  background-color: var(--primary-color);
+}
+
+
+/* skill-section */
+
+#skill-card-button {
+  margin-right: 10px;
+  margin-top: 5px;
+  padding: 8px;
+  font-size: 14px;
+  outline: none ;
+  outline-offset: none ;
+}
+
+.col-skill-button {
+  text-align: left;
+}
+
+.col-skill-type {
+  text-align: left;
+}
+
+.skills-card {
+  margin-top: 2rem;
+}
+
+.vertical-timeline-element-date {
+  text-align: left;
+}
+
+.navbar-Header {
+  min-height: 120px;
+}
+
+.skill-head {
+  letter-spacing: 1.5px;
+  justify-content: center;
+}
+
+/* for vertical timeliner line */
+.vertical-timeline::before {
+  background: var(--primary-color) !important;
+}
+
+#vertical-timeline-heading-link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+#vertical-timeline-heading-link:hover {
+  color: var(--link-color);
+}
+
+/* for timeliner component */
+.vertical-timeline-element-content.bounce-in {
+  box-shadow: 0.5px 1px 2px 0px;
+}
+
+.vertical-timeline-element-date {
+  color: black !important;
+}
+
+.navbar-nav {
+  letter-spacing: 1px;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+  padding-left: 4rem !important;
+  padding-right: 4rem !important;
+}
+
+@media (max-width: 560px) {
+  .navbar-expand .navbar-nav .nav-link {
+    padding-left: 0.5rem !important ;
+    padding-right: 0.5rem !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbar-expand .navbar-nav .nav-link {
+    padding-left: 2px !important ;
+    padding-right: 2px !important;
+  }
+}
+
+
+
+.navbar {
+  background: var(--primary-color);
+}
+
+.nav-link {
+  color: var(--link-color) !important;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+.active {
+  color: white !important; 
+}
+/* social icons css */
+
+.social-icons a {
+  text-decoration: none;
+  color: white;
+}
+
+.fab1 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+.btn:focus {
+  outline: none !important;
+  outline-offset: none !important;
+}
+
+
+.container-f {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(110, 110, 110);
+  margin-left: 23.10% !important;
+  font-size: small ;
+  width: 68% !important;
+}
+
+
+
+.box {
+  display: flex;
+  justify-items: center;
+}
+
+@media (max-width: 560px) {
+  .container-f {
+    margin-left: 11% !important;
+    justify-content: start;
+    width: auto !important;
+  }
+  .box2 {
+    margin-left: 21%;
+  }
+  .box3 {
+    margin-left: 10%;
+  }
+  
+}
+
+@media (min-width: 1441px) {
+  .container-f {
+    margin-left: 24.20% !important;
+  }
+}
+
+
+.link-foot {
+  color: rgb(110, 110, 110) ;
+}
+
+.link-foot:hover {
+  color: var(--primary-color);
+}
