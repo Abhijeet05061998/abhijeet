@@ -8,7 +8,8 @@ import "@fortawesome/fontawesome-free/css/solid.css";
 
 import Home from "./components/Home";
 export default function App() {
-  return (
+  return
+  (
     <div className="App">
       <Home />
     </div>
