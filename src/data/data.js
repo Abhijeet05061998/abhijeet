@@ -80,6 +80,15 @@ export let skillsets =  [
 
   export let projects =  [
 
+       {
+      topic: "Covid-19 Tracker",
+      technology: ["ReactJS,HOOKS,Material UI,NPM"],
+      breif:
+        "Covid-19 Tracker is Fully dynamically one page website which id Developed by using REACT JS so in this web page anyone can find the all the infromation about corona virus",
+      date: "Aug - 2020",
+
+      pro_link: "https://covid-19-tracker2321.netlify.app/",
+    },
   {
       topic: "Built a Movie website using API of TMDB.",
       technology: ["ReactJS"],
