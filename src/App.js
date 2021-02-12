@@ -7,11 +7,9 @@ import "@fortawesome/fontawesome-free/css/brands.css";
 import "@fortawesome/fontawesome-free/css/solid.css";
 
 import Home from "./components/Home";
-export default function App() {
-  return
-  (
-    <div className="App">
-      <Home />
+export default function App(){
+  return(
+    <div  className="App">
+    <Home />
     </div>
-  );
-}
+  );}
