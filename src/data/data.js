@@ -93,7 +93,7 @@ export let skillsets =  [
       topic: "Spotify-Clone",
       technology: ["ReactJS,Material-UI,API,CONTEXT-API,JAVASCRIPT"],
       breif:
-        "This website has list of movies and Tv shows that are trending, highest rated, latest etc. along with the functionality of searching (everything related to movies)",
+        "This website is basically UI of our famous music streaming channel Spotify. I used Skill during the development of this Project is React js,Spotify develper API,material UI,CSS3",
       date: "April - 2019",
       logo: "fas fa-caret-square-right",
       pro_link: "https://github.com/Abhijeet05061998/movie_searching",
