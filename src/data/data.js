@@ -27,7 +27,8 @@ export let skillsets =  [
         { skill: "Bootstrap", level: "moderate", but: "info" },
         { skill: "MaterialUI", level: "moderate", but: "info" },
         { skill: "React", level: "daily-use", but: "success" },
-        { skill: "GatsbyJS", level: "Beginner", but: "danger" },
+          { skill: "React-Native", level: "daily-use", but: "success" },
+       
       ],
     },
     {
