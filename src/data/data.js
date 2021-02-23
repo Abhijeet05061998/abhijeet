@@ -44,6 +44,7 @@ export let skillsets =  [
       icon: "fa-database",
       skills: [
         { skill: "MySQL", level: "moderate", but: "info" },
+           { skill: "MONGO-DB", level: "moderate", but: "info" },
         { skill: "PostgreSQL", level: "beginner", but: "danger" },
       ],
     },
