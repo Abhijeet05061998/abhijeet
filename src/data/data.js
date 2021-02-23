@@ -36,6 +36,7 @@ export let skillsets =  [
       icon: "fa-desktop",
       skills: [
       { skill: "NODE JS", level: "beginner", but: "danger" },
+                { skill: "BOOTSTRAP", level: "beginner", but: "danger" },
       { skill: "REACT JS", level: "beginner", but: "danger" }],
     },
     {
