@@ -30,9 +30,9 @@ export default class Header extends React.Component {
               <i className={"fas fa-pen fa-sm"} />
               &nbsp;PROJECTS
             </Nav.Link>
-            <Nav.Link href="https://abhijeet05061998.github.io/portfolio/">
+            <Nav.Link href="#">
               <i className={"fas fa-blog fa-sm"} />
-              &nbsp;CLIENTS PROJECTS
+              &nbsp;TECH BLOGS
             </Nav.Link>
           </Nav>
         </Navbar>
