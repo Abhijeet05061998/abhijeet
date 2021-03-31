@@ -23,7 +23,7 @@ class Academia extends Component {
             </h4>
             <h6 className="vertical-timeline-element-subtitle">
               <i className={"fas fa-graduation-cap fa-sm"} />
-              &nbsp; Bachelor of Information Technology Engineering
+              &nbsp; B.E in Information Technology
             </h6>
             <p>
               <i className={"fas fa-map-marker fa-sm"} />
