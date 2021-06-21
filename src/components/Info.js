@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Card from "react-bootstrap/Card";
 import Img from "../utils/121.jpg";
-import Resume from "../utils/Abhijeet's Resume.pdf";
+import Resume from "../utils/Abhijeet.pdf";
 
 class Info extends Component {
   render() {
